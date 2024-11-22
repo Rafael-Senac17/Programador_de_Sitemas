@@ -1,8 +1,5 @@
 function tabuada(n) {
-    var x = -1
-    while (x < 10 ) {
- 
-    var x = x + 1
+    for (var x = 0; x <= 10; x ++ ) {
     
    var n2 = n * x
 
