@@ -1,13 +1,19 @@
-function numero(n1,n2,n3) {
-   //var menor = n1  
-    if (n2 > n1){ 
-        n1 = n2 }
-
-    if (n1 < n3){
-        n1 = n3
-    } 
-    return n1
+function obeterMaior(a,b,c) {
+    let maior
+    if (a > b) {
+        maior = a
+    } else {
+        maior = b
+    }
+    if (c > maior) {
+        maior = c
+    } else{
+        maior = maior
+    }
+     
+   return maior
 }
-console.log(numero(3,7,5))
-console.log(numero(-1,-5,-3))
-console.log(numero(8,2,10))
+
+console.log(obeterMaior(3,5,7))
+console.log(obeterMaior(-1,-5,-3))
+console.log(obeterMaior(8,2,10))
