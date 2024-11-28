@@ -1,23 +1,39 @@
- var carro2 = {
+var carro1 = {
 
-marca: "Ford"
-,modelo: "Maverick v8"
-,ano: 1973
-,fabricacao: "Taubaté"
-,classe: "Compacto"
-,cor: "Preto"
-,Motor: "6 cilindros"
-,potencia: "199 cv"
-,combustao:"Flex"
-,direcao: "Hidráulica"
-,portas:4
-,carroceria: "Sedã"
-,calimbragem: {dianteiro:30, traseiro: 30, step: 32}
-,cambio: "Manual, 4 marchas"
-,chassi:"LB 5DNE 20758"
-,proprietario:"Rafael"
-,tracao: "AWD"
-,aro: 14
- }
+    modelo: "Maverick v8"
+    , cor: "Preto"
+    , velocidade: 0
 
- console.log(carro2)
+
+}
+var carro2 = {
+    modelo: "Ferrari"
+    , cor: "Preto"
+    , velocidade: 0
+}
+
+
+function acelerar(carro) {
+
+    carro.velocidade += 5
+}
+
+while (carro1.velocidade < 80) acelerar(carro1)
+
+
+
+function desacelerar(carro) {
+    carro.velocidade -= 13
+    if (carro.velocidade < 0) {
+        carro.velocidade = 0
+    }
+}
+while (carro1.velocidade > 0) desacelerar(carro1)
+
+    while (carro2.velocidade > 0) desacelerar(carro2)
+        
+        
+        console.log(carro1.velocidade)
+
+
+console.log(carro2.velocidade)
