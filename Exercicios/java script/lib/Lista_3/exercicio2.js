@@ -1,8 +1,5 @@
 function numero(par) {
-    if (par % 2 === 0) {
-        return "Par"
-    } else
-    return "impar"
+    return par % 2 === 0 ? "Par" : "impar"
 }
 console.log(numero(4))
 console.log(numero(7))
