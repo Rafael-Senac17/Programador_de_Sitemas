@@ -1,7 +1,3 @@
-function soma(a,b) {
-return a + b
-}
-
 var lis = "3 7 9 10 13"
 console.log(lis.split(' ').map(Number).reduce((a ,b ,Index ,lis) => a + b / lis.length, 0))
 var lis2 = "10 70 30 50"
