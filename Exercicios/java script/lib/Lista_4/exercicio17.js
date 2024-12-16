@@ -1,4 +1,4 @@
-import { verificacao } from "../Biblioteca.js"
+import { verificacao } from "./Biblioteca.js"
 
 console.log(verificacao("12345"))
 console.log(verificacao("abc123"))

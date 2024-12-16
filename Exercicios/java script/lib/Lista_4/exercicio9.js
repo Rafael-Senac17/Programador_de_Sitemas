@@ -1,4 +1,4 @@
-import { somar } from "../Biblioteca.js"
+import { somar } from "./Biblioteca"
 
 somar([1, 2, 3, 4, 5])
 somar([2, 4, 6, 8])

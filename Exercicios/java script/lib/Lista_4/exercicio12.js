@@ -1,4 +1,4 @@
-import { somarAlgarismo } from "../Biblioteca.js"
+import { somarAlgarismo } from "./Biblioteca.js"
     
 somarAlgarismo(123)
 somarAlgarismo(456789)

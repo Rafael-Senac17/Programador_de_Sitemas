@@ -1,4 +1,4 @@
-import { contarVogais } from "../Biblioteca.js"
+import { contarVogais } from "./Biblioteca.js"
 
 contarVogais("hello")
 contarVogais("javascript")
