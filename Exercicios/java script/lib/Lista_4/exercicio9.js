@@ -1,10 +1,4 @@
-function somar(lista) {
-var soma = 0;
-for (var x = 0; x < lista.length; x++) {
-soma += lista[x];
-    }
-console.log(soma)
-}
+import { somar } from "../Biblioteca.js"
 
 somar([1, 2, 3, 4, 5])
 somar([2, 4, 6, 8])
