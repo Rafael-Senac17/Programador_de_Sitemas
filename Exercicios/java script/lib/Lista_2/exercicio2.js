@@ -1,4 +1,4 @@
-function  nome(x,y)  { 
-return `${x} ${y}`}
+import { nome } from "./Biblioteca.js";
+
 var Meunome = nome("Rafael","Rocha")
 window.prompt('Olá, ' + Meunome + '!');

@@ -1,8 +1,7 @@
-function  nomeCompleto(nome,sobrenome)  { 
-return `${nome} ${sobrenome}` }
+import { nome } from "./Biblioteca.js";
 
-var pessoa1 = nomeCompleto("João","Silva")
-var pessoa2 = nomeCompleto("Maria", "Oliveira")
-var pessoa3 = nomeCompleto("Pedro", "dos Santos")
+var pessoa1 = nome("João","Silva")
+var pessoa2 = nome("Maria", "Oliveira")
+var pessoa3 = nome("Pedro", "dos Santos")
     
 console.log(`Seja Bem Vindo(a), ${pessoa1}, ${pessoa2}, ${pessoa3}. `);

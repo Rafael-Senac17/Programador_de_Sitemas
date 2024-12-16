@@ -1,9 +1,4 @@
-function  media(x,y,z)  { 
-var n1 = Number(x)
-var n2 = Number(y)
-var n3 = Number(z)
-var resultado = (n1 + n2 + n3) / 3
-return resultado }
+import { media } from "./Biblioteca.js"
     
 var media1 = media(10,20,30)
 var media2 = media(5,15,25)

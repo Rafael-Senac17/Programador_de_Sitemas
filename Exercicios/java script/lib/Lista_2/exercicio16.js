@@ -1,10 +1,7 @@
-function  conta(numero)  { 
-var n1 = Number(numero)
-var resultado =(n1 ** 3) * 4 / 3
-return resultado }
+import { volumeEsfera } from "./Biblioteca.js"
     
-var volume = conta(3)
-var volume2 = conta(5)
-var volume3 = conta(1.5)
+var volume = volumeEsfera(3)
+var volume2 = volumeEsfera(5)
+var volume3 = volumeEsfera(1.5)
 
 console.log(`O volume da esfera e ${volume}, ${volume2}, ${volume3}`)

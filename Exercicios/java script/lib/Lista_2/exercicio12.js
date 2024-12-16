@@ -1,10 +1,7 @@
-function  dobro(numero)  { 
-var n1 = Number(numero)
-var resultado = n1 * 2
-return resultado }
+import { dobro } from "./Biblioteca"
 
-var dobro1 = raizQuadrada("4")
-var dobro2 = raizQuadrada(7)
-var dobro3 = raizQuadrada(-3)
+var dobro1 = dobro("4")
+var dobro2 = dobro(7)
+var dobro3 = dobro(-3)
     
 console.log(`O dobro do numero e ${dobro1}, ${dobro2}, ${dobro3}`)

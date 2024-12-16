@@ -1,8 +1,4 @@
-function  potencia2(base,expoente)  { 
-var n1 = Number(base)
-var n2 = Number(expoente)
-var resultado = n1 ** n2
-return resultado }
+import { potencia2 } from "./Biblioteca.js"
     
 var conta = potencia2(2,3)
 var conta2 = potencia2(5,2)

@@ -1,10 +1,7 @@
-function  conta(numero)  { 
-var n1 = Number(numero)
-var resultado = n1 * 1.8 + 32
-return resultado }
+import { fahrenheit } from "./Biblioteca.js" 
 
-var fahrenheit = conta(25)
-var fahrenheit2 = conta(0)
-var fahrenheit3 = conta(-10)
+var fahrenheit = fahrenheit(25)
+var fahrenheit2 = fahrenheit(0)
+var fahrenheit3 = fahrenheit(-10)
     
 console.log(`O numero em fahrenheit e ${fahrenheit}, ${fahrenheit2}, ${fahrenheit3}`)

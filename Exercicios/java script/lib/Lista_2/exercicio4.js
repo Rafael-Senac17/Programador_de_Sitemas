@@ -1,8 +1,4 @@
-function  multiplicacao(x,y)  { 
-var n1 = Number(x)
-var n2 = Number(y)
-var resultado = n1 * n2
-return resultado }
+import { multiplicacao } from "./Biblioteca.js"
 
 var multiplicação = multiplicacao(3,7)
 var multiplicação2 = multiplicacao(6,5)

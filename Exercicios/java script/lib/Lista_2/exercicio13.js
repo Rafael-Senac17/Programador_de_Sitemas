@@ -1,7 +1,4 @@
-function  raizQuadrada(numero)  { 
-var n1 = Number(numero)
-var resultado = Math.sqrt(n1)
-return resultado }
+import { raizQuadrada } from "./Biblioteca.js"
     
 var raiz = raizQuadrada("16")
 var raiz2 = raizQuadrada(9)
