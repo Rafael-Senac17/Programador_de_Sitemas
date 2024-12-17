@@ -33,6 +33,11 @@ return lista.replaceAll(" ","")
 export function inverter(lista){
 return lista.split('').reverse().join('')
 }
+//Lista 4 - Exercicio 16
+export function palindromo(lista){
+var lis = lista.split('').reverse().join('')
+return lis == lista
+}
 //Lista 4 - Exercicio 17
 export function verificacao(x) {
 if (isNaN(x)) {

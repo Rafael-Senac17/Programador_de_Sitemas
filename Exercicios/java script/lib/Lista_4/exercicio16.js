@@ -1,6 +1,5 @@
-var lis1 = "racecar".split('').reverse().join('')
-console.log(lis1 === "racecar")
-var lis2 = "hello".split('').reverse().join('')
-console.log(lis2 === "hello")
-var lis3 = "madam".split('').reverse().join('')
-console.log(lis3 === "madam")
+import { palindromo } from "./Biblioteca.js"
+
+console.log(palindromo("racecar"))
+console.log(palindromo("hello"))
+console.log(palindromo("madam"))
