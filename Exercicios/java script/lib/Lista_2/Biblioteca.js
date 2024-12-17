@@ -22,7 +22,7 @@ export function  media(x,y,z)  {
     var resultado = (n1 + n2 + n3) / 3
 return resultado }
 
-export function  resto(x,y)  { 
+export function  divisao(x,y)  { 
     var n1 = Number(x)
     var n2 = Number(y)
     var resultado = n1 / n2
