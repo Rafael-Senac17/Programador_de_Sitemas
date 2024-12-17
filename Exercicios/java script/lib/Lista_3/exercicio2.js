@@ -1,6 +1,6 @@
-import { verificarPar } from "./Biblioteca3.js"
+import { ImprimirParidade } from "./Biblioteca3.js"
 
-console.log(verificarPar(4))
-console.log(verificarPar(7))
-console.log(verificarPar(0))
-console.log(verificarPar(-5))
+console.log(ImprimirParidade(4))
+console.log(ImprimirParidade(7))
+console.log(ImprimirParidade(0))
+console.log(ImprimirParidade(-5))

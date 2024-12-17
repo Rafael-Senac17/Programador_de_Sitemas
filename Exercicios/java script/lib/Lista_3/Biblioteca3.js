@@ -6,8 +6,11 @@ export function avaliar(media) {
     } else
     return "Reprovado"
 }
-export function verificarPar(par) {
-    return par % 2 === 0 ? "Par" : "impar"
+export function verificarPar(x) {
+    return (x % 2 === 0)
+}
+export function ImprimirParidade(num){
+    return verificarPar(num) ? "Par" : "Impar"
 }
 export function numero(positivo) {
     if (positivo > 0) {
