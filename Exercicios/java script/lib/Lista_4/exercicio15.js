@@ -1,3 +1,5 @@
-console.log("hello".split('').reverse().join(''))
-console.log("world".split('').reverse().join(''))
-console.log("abc".split('').reverse().join(''))
+import { inverter } from "./Biblioteca.js"
+
+console.log(inverter("hello"))
+console.log(inverter("world"))
+console.log(inverter("abc"))

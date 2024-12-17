@@ -29,6 +29,10 @@ return Math.max.apply(null, lista)
 export function removedor(lista){
 return lista.replaceAll(" ","")
 }
+//Lista 4 - Exercicio 15
+export function inverter(lista){
+return lista.split('').reverse().join('')
+}
 //Lista 4 - Exercicio 17
 export function verificacao(x) {
 if (isNaN(x)) {
