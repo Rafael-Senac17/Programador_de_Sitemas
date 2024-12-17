@@ -1,16 +1,5 @@
-function nota(valor) {
-    if (valor >= 90) {
-        return "A"
-    } else if (valor >= 80 && valor <= 89) {
-        return "B"
-    } else if (valor >= 70 && valor <= 79) {
-        return "C"
-    }else if (valor >= 60 && valor <= 69) {
-        return "D"
-    } else {
-        return "F"
-    }
-}
+import { nota } from "./Biblioteca3.js"
+
 console.log(nota(90))
 console.log(nota(75))
 console.log(nota(60))

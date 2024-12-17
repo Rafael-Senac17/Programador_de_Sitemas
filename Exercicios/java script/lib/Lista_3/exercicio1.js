@@ -1,9 +1,4 @@
-function avaliar(media) {
-    if (media >= 7.000){
-        return "Aprovado"
-    } else
-    return "Reprovado"
-}
+import { avaliar } from "./Biblioteca3.js"
 
 console.log(avaliar(10))
 console.log(avaliar(7.0))

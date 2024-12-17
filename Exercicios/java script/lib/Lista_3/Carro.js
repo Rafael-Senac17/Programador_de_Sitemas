@@ -6,7 +6,7 @@ var carro1 = {
     , acelerar: function () {
         this.velocidade += 5
 
-        console.log("Acelerou para " + this.velocidade)
+        // console.log("Acelerou para " + this.velocidade)
     }
     , frear: function () {
         this.velocidade -= 13
@@ -27,7 +27,7 @@ var carro2 = {
     , acelerar: function () {
         this.velocidade += 5
 
-        console.log("Acelerou para " + this.velocidade)
+        // console.log("Acelerou para " + this.velocidade)
     }
     , frear: function () {
         this.velocidade -= 13

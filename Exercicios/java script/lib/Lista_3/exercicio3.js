@@ -1,11 +1,4 @@
-function numero(positivo) {
-    if (positivo > 0) {
-        return "Positivo"
-    } else if (positivo == 0) {
-    return "Zero"
-    } else 
-    return "Negativo"
-}
+import { numero } from "./Biblioteca3.js"
 
 console.log(numero(5))
 console.log(numero(-3))
