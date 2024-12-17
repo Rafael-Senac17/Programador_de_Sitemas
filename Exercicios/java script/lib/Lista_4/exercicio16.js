@@ -1,4 +1,4 @@
-import { palindromo } from "./Biblioteca.js"
+import { palindromo } from "./Biblioteca4.js"
 
 console.log(palindromo("racecar"))
 console.log(palindromo("hello"))

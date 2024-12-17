@@ -1,4 +1,4 @@
-import { media } from "./Biblioteca.js"
+import { media } from "./Biblioteca4.js"
 
 console.log(media([1, 2, 4, 5, 7, 8, 10, 11]))
 console.log(media([10, 70, 30, 50]))

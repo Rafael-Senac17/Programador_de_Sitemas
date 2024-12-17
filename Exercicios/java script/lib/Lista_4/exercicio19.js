@@ -1,4 +1,4 @@
-import { Anagrama } from "./Biblioteca.js"
+import { Anagrama } from "./Biblioteca4.js"
 
 console.log(Anagrama("listen","silent"))
 console.log(Anagrama("hello","world"))

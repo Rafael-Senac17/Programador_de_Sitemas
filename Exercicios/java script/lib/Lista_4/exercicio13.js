@@ -1,4 +1,4 @@
-import { Maior } from "./Biblioteca.js"
+import { Maior } from "./Biblioteca4.js"
 
 console.log(Maior([1, 2, 3, 4, 5]))
 console.log(Maior([-1, -2, -3, -4, -5]))
