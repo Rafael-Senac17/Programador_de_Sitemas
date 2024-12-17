@@ -1,6 +1,6 @@
-import { soma } from "./Biblioteca3.js"
+import { somaN } from "./Biblioteca3.js"
 
-soma(5)
-soma(10)
-soma(1)
-soma(64)
+somaN(5)
+somaN(10)
+somaN(1)
+somaN(64)
